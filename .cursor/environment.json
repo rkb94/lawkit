@@ -1,0 +1,17 @@
+{
+  "name": "lawkit",
+  "install": "pnpm install --frozen-lockfile",
+  "terminals": [
+    {
+      "name": "dev",
+      "command": "pnpm dev",
+      "description": "Next.js (App Router) dev server on http://localhost:3000. Serves both the public site (/) and admin (/admin)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 3000
+    }
+  ]
+}
